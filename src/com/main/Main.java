@@ -17,7 +17,9 @@ public class Main {
     public Main() {
         System.out.println("Printed from the constructor.");
     }
+    
     public static void main(String[] args) {
+        Main main = new Main();
         System.out.println("Does NetBeans work with Intellij?");
     }
 
